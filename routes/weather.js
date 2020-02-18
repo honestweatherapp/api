@@ -12,8 +12,6 @@ router.get("/", (req, res) => {
 		return res.status(400).json({ message: "Please provide a latitude." });
 	if (!req.body.lang)
 		return res.status(400).json({ message: "Please provide a language." });
-	if (!req.body.units)
-		return res.status(400).json({ message: "Please provide a unit system." });
 
 	axios
 		.get(

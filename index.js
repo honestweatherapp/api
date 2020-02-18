@@ -13,7 +13,7 @@ app.use(cors());
 
 app.get("/", (req, res) => res.send("Welcome to the HonestWeather API!"));
 
-app.use("/weather", weather);
+app.use("/api/v1/weather", weather);
 
 app.listen(port, () =>
 	console.log(`HonestWeather API listening on port ${port}!`)
