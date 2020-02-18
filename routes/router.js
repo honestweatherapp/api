@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/endpoints", (req, res) => {
-	res.status(200).json(["GET		/api/v1/weather"]);
+	res.status(200).json(["GET /api/v1/weather"]);
 });
 
 module.exports = router;
