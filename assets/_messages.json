@@ -1,0 +1,22 @@
+{
+	"en": {
+		"<0": ["Temperatura poniżej 0"],
+		"0-5": ["Temperatura w przedziale od 0 do 5"],
+		"6-10": ["Temperatura w przedziale od 6 do 10"],
+		"11-15": ["Temperatura w przedziale od 11 do 15"],
+		"16-20": ["Temperatura w przedziale od 16 do 20"],
+		"21-25": ["Temperatura w przedziale od 21 do 25"],
+		"26-30": ["Temperatura w przedziale od 26 do 30"],
+		">30": ["Temperatura powyżej 30"]
+	},
+	"pl": {
+		"<0": ["Temperatura poniżej 0"],
+		"0-5": ["Temperatura w przedziale od 0 do 5"],
+		"6-10": ["Temperatura w przedziale od 6 do 10"],
+		"11-15": ["Temperatura w przedziale od 11 do 15"],
+		"16-20": ["Temperatura w przedziale od 16 do 20"],
+		"21-25": ["Temperatura w przedziale od 21 do 25"],
+		"26-30": ["Temperatura w przedziale od 26 do 30"],
+		">30": ["Temperatura powyżej 30"]
+	}
+}
