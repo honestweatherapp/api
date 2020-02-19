@@ -15,11 +15,16 @@ router.get("/", (req, res) => {
 
 	axios
 		.get(
-			`https://api.openweathermap.org/data/2.5/weather?lat=${req.query.lat}&lon=${req.query.long}&units=${req.query.units}&appid=${process.env.OWM_KEY}`
+			`https://api.openweathermap.org/data/2.5/weather?lat=${
+				req.query.lat
+			}&lon=${req.query.long}${
+				req.query.units ? `&units=req.query.units` : ""
+			}&appid=${process.env.OWM_KEY}`
 		)
 		.then(response => {
 			return res.status(response.status).json({
 				coord: response.data.coord,
+				units: req.query.units ? req.query.units : "kelvin",
 				...response.data,
 				message: getMessage(response.data.main.feels_like, req.query.lang)
 			});
