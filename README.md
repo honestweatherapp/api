@@ -3,7 +3,7 @@ An API for the Honest Weather app, that uses the Open Weather Map to provide the
 
 ## Usage
 You can reach the API at:
-[https://honestweather-api.herokuapp.com/](honestweather-api.herokuapp.com)
+[honestweather-api.herokuapp.com](https://honestweather-api.herokuapp.com/)
 
 The list of all endpoints is available at `GET /api/v1/endpoints`
 
