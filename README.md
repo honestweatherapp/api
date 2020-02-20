@@ -13,3 +13,8 @@ Please add some funny messages in languages that you speak, according to the alr
 please we beg you we need someone that's actually funny..
 
 guys please we're really desparate here.
+
+## Authors
+This entire shenanigan is WIP by
+- [Artur Dudek](https://github.com/datejer)
+- [Adam Siekierski](https://github.com/AdamSiekierski/)
