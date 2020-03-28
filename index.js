@@ -16,7 +16,6 @@ app.get("/", (req, res) => res.send("Welcome to the HonestWeather API!"));
 
 app.use("/api/v1/", router);
 app.use("/api/v1/weather", weather);
+app.use("/api/v1/static", express.static("./static"));
 
-app.listen(port, () =>
-	console.log(`HonestWeather API listening on port ${port}!`)
-);
+app.listen(port, () => console.log(`HonestWeather API listening on port ${port}!`));
